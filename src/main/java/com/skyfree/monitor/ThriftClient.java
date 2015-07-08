@@ -6,7 +6,6 @@ import org.apache.thrift7.protocol.TProtocol;
 import org.apache.thrift7.transport.TFramedTransport;
 import org.apache.thrift7.transport.TSocket;
 
-import java.io.Closeable;
 import java.io.IOException;
 
 /**
