@@ -20,10 +20,17 @@
             <groupId>storm</groupId>
             <artifactId>storm</artifactId>
             <version>0.9.0.1</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- 主要用thrift协议与storm进行通讯,获取storm的监控信息-->
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+            <version>0.7.0</version>
         </dependency>
     </dependencies>
-    
+
     <!-- 可以将依赖打到包里 -->
     <build>
         <plugins>
